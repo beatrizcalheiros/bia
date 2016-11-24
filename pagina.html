@@ -43,13 +43,15 @@
 
         <h1>FACULDADE DE BELAS ARTES</h1>
         <h2>UNIVERSIDADE DO PORTO</h2>
-     </div>
-     <div class="container2">
-        <p class="pt">PT</p>
-        <p class="pt"><a href="">EN</a></p>
+
+     <div id="pt">
+        <p>PT</p>
+        <p><a href="">EN</a></p>
     </div>
-        <p class="burger"><a href="#s1">
+        <p id="burger"><a href="#s1">
         <img src="burger.png" alt= "menu"/></a>
+      </p>
+    </div>
     </header>
 
 
@@ -70,13 +72,20 @@
   <img src="evento1.jpg" style="width:100%">
 </div>
 
-<div class="slideshow-container">
+
 <div class="mySlides fade">
-  <img src="evento1.jpg" style="width:100%">
+  <img src="cinemundo.jpg" style="width:100%">
+</div>
+
+
+<div class="mySlides fade">
+  <img src="arranque.jpg" style="width:100%">
+</div>
+
 </div>
 
 <!--botoes de hover transition-->
-<div style="text-align:center">
+<div class="slideshow-container" class="dot">
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
@@ -116,23 +125,6 @@ function showSlides(n) {
 
 
 
-<!-- ORIGINAL
-<div class="evento">
-<a href="evento.html">
- <img src="evento1.jpg" alt="evento"/></a>
-</div>
- -->
 
-<!-- menu do lado
-<div class="container3">
-  <nav>
-    <ul>
-      <li><h3>22/10</h3><img src="eve1.jpg" alt="evento"/></li>
-      <li><h3>02/12</h3><img src="eve2.jpg" alt="evento"/></li>
-      <li><h3>62/29</h3><img src="eve3.jpg" alt="evento"/></li>
-    </ul>
-  </nav>
-</div>
--->
 </body>
 </html>

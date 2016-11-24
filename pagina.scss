@@ -4,23 +4,28 @@
 body{
   border: 8px solid black;
   height: 100vh;
+
 }
 
 @import "partial";
 
 /*slideshow*/
 .slideshow-container {
-  max-width: 800px;
-  position: absolute;
-  padding-top: 8%;
+  width: 64%;
+  margin-right: 0;
+  clear: right;
+}
+
+.slideshow-container img{
+  padding-top: 3em;
 }
 
 
-.dot {
+.dot{
   cursor: pointer;
   height: 13px;
   width: 13px;
-  margin: 0;
+  margin: 1%;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -68,15 +73,18 @@ body{
 /* menu do lado com eventos futuros deve estar ao lado da imagem  */
 
 
+.container3{
+  position: absolute;
+  width: 36%;
+  height: 63%;
+  top: 30%;
+  left: 63.5%;
+
 
 nav {
   padding-top: 4%;
+  padding-bottom:  4%;
   border: solid 5px black;
-  position:absolute;
-  margin-top: 6%;
-  left: 63%;
-  width: 36%;
-  height: 63%;
 }
 
 nav ul {
@@ -96,4 +104,5 @@ nav img {
   padding-left: 30%;
   margin-left: 3%;
   margin-top: 3%;
+}
 }
