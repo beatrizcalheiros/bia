@@ -1,0 +1,31 @@
+@import "reset";
+
+body{
+  border: 8px solid black;
+  height: 100vh;
+}
+
+@import "partial";
+
+.corpo {
+
+  img {
+     position: absolute;
+     width:50%;
+     left: 40%;
+     padding-top: 8%;
+     opacity: 0.7;
+  }
+
+p {
+    width: 40%;
+    background-color: white;
+    opacity: 0.9;
+    position: absolute;
+    margin-left: 20%;
+    margin-top:  20%;
+    padding: 3%;
+    line-height: 22pt;
+
+  }
+}

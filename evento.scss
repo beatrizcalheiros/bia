@@ -1,0 +1,37 @@
+@import "reset";
+
+body{
+  border: 8px solid black;
+}
+
+@import "partial";
+
+.containers{
+  padding: 15em;
+  padding-top: 9em;
+
+  img{
+    position: absolute;
+    left: 55%;
+    width: 30%;
+
+  }
+
+  h1{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 40pt;
+
+  }
+
+  
+  p{
+
+    font-family: sans-serif;
+    text-align: justify;
+    width: 50%;
+    line-height: 26pt;
+    padding-top: 10em;
+
+  }
+}
