@@ -1,0 +1,25 @@
+.corpo {
+
+  img {
+     position: absolute;
+     width:50%;
+     left: 40%;
+     top: 30%;
+     opacity: 0.7;
+  }
+
+p {
+    width: 40%;
+    background-color: white;
+    opacity: 0.9;
+    position: absolute;
+    margin-left: 20%;
+    margin-top:  25%;
+    padding: 3%;
+    font-family: $font-stack;
+    font-weight: 500;
+    font-size: 12pt;
+    line-height: 22pt;
+
+  }
+}

@@ -1,13 +1,15 @@
 
+
 @import "reset";
+@import "partial";
+@import "variaveis";
 
 body{
-  border: 8px solid black;
   height: 100vh;
+  border: 8px solid black;
 
 }
 
-@import "partial";
 
 /*slideshow*/
 .slideshow-container {
@@ -17,7 +19,7 @@ body{
 }
 
 .slideshow-container img{
-  padding-top: 3em;
+  padding-top: 4em;
 }
 
 
@@ -85,6 +87,7 @@ nav {
   padding-top: 4%;
   padding-bottom:  4%;
   border: solid 5px black;
+  border-right: none;
 }
 
 nav ul {
@@ -94,7 +97,7 @@ nav ul {
 }
 
 nav li h3 {
-  font-family: sans-serif;
+  font-family: $font-stack;
   font-size: 18pt;
   padding-left: 10%;
 }

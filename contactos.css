@@ -53,10 +53,6 @@ table {
   border-spacing: 0;
 }
 
-body {
-  border: 8px solid black;
-}
-
 /* TOP NAV */
 /*-- tentar transformar h1 e h2 num só para o float acontecer direito funcionou */
 .container {
@@ -124,27 +120,37 @@ body {
   text-decoration: none;
 }
 
-.containers {
-  padding: 15em;
-  padding-top: 9em;
-}
-
-.containers img {
+.corpo img {
   position: absolute;
-  left: 55%;
-  width: 30%;
-}
-
-.containers h1 {
-  position: absolute;
-  font-family: sans-serif;
-  font-size: 40pt;
-}
-
-.containers p {
-  font-family: sans-serif;
-  text-align: justify;
   width: 50%;
-  line-height: 26pt;
-  padding-top: 10em;
+  left: 40%;
+  top: 30%;
+  opacity: 0.7;
+}
+
+.corpo p {
+  width: 40%;
+  background-color: white;
+  opacity: 0.9;
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 25%;
+  padding: 3%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 12pt;
+  line-height: 22pt;
+}
+
+body {
+  height: 100vh;
+  border: 8px solid black;
+}
+
+.corpo p {
+  width: 20%;
+  height: 30%;
+  line-height: 30pt;
+  margin-top: 22%;
+  text-align: center;
 }
