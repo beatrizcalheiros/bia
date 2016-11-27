@@ -1,6 +1,9 @@
 <!DOCTYPE HTML>
 
  <html lang="en">
+ <style>
+
+</style>
   <head>
       <title>FBAUP</title>
       <meta charset="utf-8">
@@ -13,7 +16,14 @@
 </head>
 
   <body>
-            <!--  <nav>
+  <div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+			<nav>
                 <ul>
                   <h3>Instituições</h3>
                   <li><a href="apresentação.html">Apresentação</a></li>
@@ -38,7 +48,10 @@
                 </ul>
 
               </nav>
-        -->
+  </div>
+
+</div>
+
     <header>
         <div class="container">
       <img src="logo.png" alt="logo"/>
@@ -50,7 +63,7 @@
         <p>PT</p>
         <p><a href="">EN</a></p>
     </div>
-        <p id="burger"><a href="#s1">
+        <p id="burger" onclick="openNav()"><a href="#s1">
         <img src="burger.png" alt= "menu"/></a>
       </p>
     </div>
@@ -94,35 +107,9 @@
 </div>
 
 
+
 <!--js -->
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-</script>
+<script src="index.js"></script>
 
 
 
