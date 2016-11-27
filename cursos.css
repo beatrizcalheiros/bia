@@ -58,6 +58,59 @@ body {
   height: 100vh;
 }
 
+.curso, .curso1, .curso2 {
+  top: 15%;
+  width: 20%;
+  position: absolute;
+  left: 12%;
+}
+
+.curso h3, .curso1 h3, .curso2 h3 {
+  margin-top: 50%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16pt;
+  padding-bottom: 5%;
+  line-height: normal;
+}
+
+.curso img, .curso1 img, .curso2 img {
+  width: 90%;
+  padding-top: 10%;
+  padding-bottom: 20%;
+}
+
+.curso p, .curso1 p, .curso2 p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 9pt;
+  text-align: left;
+  line-height: 15pt;
+  font-weight: normal;
+}
+
+.curso1 {
+  float: right;
+  left: 40%;
+}
+
+.curso2 {
+  float: right;
+  left: 68%;
+}
+
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 /* TOP NAV */
 /*-- tentar transformar h1 e h2 num só para o float acontecer direito funcionou */
 .container {
@@ -122,62 +175,5 @@ body {
 }
 
 .container a:visited {
-  text-decoration: none;
-}
-
-.curso, .curso1, .curso2 {
-  top: 15%;
-  width: 20%;
-  position: absolute;
-  left: 12%;
-}
-
-.curso h3, .curso1 h3, .curso2 h3 {
-  margin-top: 50%;
-  font-family: "Work Sans", sans-serif;
-  font-weight: 500;
-  font-size: 16pt;
-  padding-bottom: 5%;
-  line-height: normal;
-}
-
-.curso img, .curso1 img, .curso2 img {
-  width: 90%;
-  padding-top: 10%;
-  padding-bottom: 20%;
-}
-
-.curso p, .curso1 p, .curso2 p {
-  font-family: "Work Sans", sans-serif;
-  font-size: 9pt;
-  text-align: left;
-  line-height: 15pt;
-  font-weight: normal;
-}
-
-.curso1 {
-  float: right;
-  left: 40%;
-}
-
-.curso1 img {
-  padding-top: 20%;
-}
-
-.curso2 {
-  float: right;
-  left: 68%;
-}
-
-a:link {
-  text-decoration: none;
-  color: inherit;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
   text-decoration: none;
 }

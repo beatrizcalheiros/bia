@@ -125,26 +125,48 @@ body {
 }
 
 .containers {
-  padding: 15em;
-  padding-top: 9em;
+  padding-top: 12em;
+  margin-left: 20em;
+  width: 55%;
+  height: auto;
 }
 
 .containers img {
-  position: absolute;
-  left: 55%;
-  width: 30%;
+  position: relative;
+  padding-top: 5em;
+  width: 45%;
+  float: right;
 }
 
 .containers h1 {
-  position: absolute;
-  font-family: sans-serif;
-  font-size: 40pt;
+  position: relative;
+  padding-top: 1em;
+  left: 2%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 45pt;
+  float: left;
 }
 
 .containers p {
-  font-family: sans-serif;
+  font-family: "Work Sans", sans-serif;
+  padding-left: 1.5em;
   text-align: justify;
   width: 50%;
   line-height: 26pt;
-  padding-top: 10em;
+  margin-top: 15em;
+}
+
+.upnext {
+  margin-top: 10em;
+  margin-left: 10em;
+}
+
+.upnext h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-size: 24pt;
+  padding-bottom: 2%;
+  margin-bottom: 3em;
+  border-bottom: 2px solid black;
 }
