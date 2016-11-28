@@ -70,16 +70,37 @@
     </header>
 
 
-
-    <div class="container3">
+<div class="slideshow-container-events">
+    <div class="container3 fade">
       <nav>
         <ul>
           <li><h3>05/12</h3><img src="eve1.jpg" alt="evento"/></li>
           <li><h3>06/01</h3><img src="eve2.jpg" alt="evento"/></li>
           <li><h3>13/01</h3><img src="eve3.jpg" alt="evento"/></li>
         </ul>
+		<div class="slideshow-container-events" class="dot">
+		  <span class="dot" onclick="currentSlide(1, 'container3')"></span>
+		  <span class="dot" onclick="currentSlide(2, 'container3')"></span>
+		</div>
       </nav>
     </div>
+	
+	<div class="container3 fade">
+      <nav>
+        <ul>
+          <li><h3>05/12</h3><img src="eve4.jpg" alt="evento"/></li>
+          <li><h3>06/01</h3><img src="eve5.jpg" alt="evento"/></li>
+          <li><h3>13/01</h3><img src="eve6.jpg" alt="evento"/></li>
+        </ul>
+		<div class="slideshow-container-events" class="dot">
+		  <span class="dot" onclick="currentSlide(1, 'container3')"></span>
+		  <span class="dot" onclick="currentSlide(2, 'container3')"></span>
+		</div>
+      </nav>
+    </div>
+	
+	
+</div>
 <!-- fim cabeçalho inicio eventos -->
 
 <div class="slideshow-container">
@@ -101,10 +122,12 @@
 
 <!--botoes de hover transition-->
 <div class="slideshow-container" class="dot">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(1, 'mySlides', 'dot');"></span>
+  <span class="dot" onclick="currentSlide(2, 'mySlides', 'dot');"></span>
+  <span class="dot" onclick="currentSlide(3, 'mySlides', 'dot');"></span>
 </div>
+
+
 
 
 

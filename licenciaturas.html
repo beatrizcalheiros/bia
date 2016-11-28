@@ -11,6 +11,41 @@
 
 
 <body>
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+			<nav>
+                <ul>
+                  <h3>Instituições</h3>
+                  <li><a href="apresentação.html">Apresentação</a></li>
+                  <li><a href="https://sigarra.up.pt/fbaup/pt/uni_geral.nivel_list?pv_nivel_id=12"/>Serviços</a></li>
+                  <li><a href="http://sdi.fba.up.pt/"/>Biblioteca</a></li>
+                  <li><a href="https://sigarra.up.pt/fbaup/pt/web_base.gera_pagina?p_pagina=18279"/>Calendário</a></li>
+                  <li><a href=""/>Museu</a></li>
+                  <li><a href="http://www.i2ads.org/"/>Investigação</a></li>
+                  <li><a href="http://sdi.fba.up.pt/arquivo/"/>Arquivo</a></li>
+                  </ul>
+
+                <ul>
+                  <h3>Cursos</h3>
+                  <li><a href="licenciaturas.html">Licenciaturas</a></li>
+                  <li><a href="mestrados.html"/>Mestrados</a></li>
+                  <li><a href="douturamentos.html"/>Douturamentos</a></li>
+                  <li><a href="https://fbaupformacaocontinua.wordpress.com/"/>Formação Contínua</a></li>
+                </ul>
+
+                <ul>
+                  <h3><a href="contactos.html">Contactos</a></h3>
+                </ul>
+
+              </nav>
+  </div>
+
+</div>
   <header>
     <div class="container">
   <a href="index.html">
@@ -21,7 +56,7 @@
     <p>PT</p>
     <p><a href="">EN</a></p>
 </div>
-    <p id="burger"><a href="#s1">
+    <p id="burger" onclick="openNav()"><a href="#s1">
     <img src="burger.png" alt= "menu"/></a>
   </p>
 </div>
@@ -78,7 +113,7 @@ A estrutura da formação em Artes Plásticas ministrada pela FBAUP, efetua-se c
 <p>
 O curso de 1º ciclo em Ciências da Comunicação: Jornalismo, Assessoria, Multimédia, tendo como base um protocolo assinado pelas Faculdades de Letras, Engenharia, Belas-Artes e Economia, pretende combinar uma formação na área das Humanidades (Ciências Sociais) com as áreas das novas tecnologias da informação e da comunicação, da estética e da economia e gestão.
 <a href="https://sigarra.up.pt/fbaup/pt/cur_geral.cur_view?pv_ano_lectivo=2015&pv_origem=CUR&pv_tipo_cur_sigla=L&pv_curso_id=455">Saiba mais</a></p>
-<div class="curso1">
 
+<script src="index.js"></script>
 </body>
 </html>
